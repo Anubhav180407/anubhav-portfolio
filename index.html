@@ -1,0 +1,2812 @@
+html  
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Anubhav — Video Editor, Poster Designer and Motion Creative."
+    >
+
+    <meta
+        name="theme-color"
+        content="#0b0b0d"
+    >
+
+    <title>Anubhav — Creative Portfolio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+    <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
+    <!-- =================================================
+         LOADER
+    ================================================== -->
+
+    <div
+        class="loader"
+        id="loader"
+        aria-hidden="true"
+    >
+
+        <div class="loader-top">
+
+            <span>ANUBHAV</span>
+
+            <span>CREATIVE STUDIO</span>
+
+        </div>
+
+
+        <div class="loader-center">
+
+            <div class="loader-character">
+
+                <img
+                    src="chibi.png"
+                    alt=""
+                    decoding="async"
+                >
+
+            </div>
+
+
+            <h1>
+                ANUBHAV<span>.</span>
+            </h1>
+
+
+            <p>
+                VIDEO · DESIGN · MOTION
+            </p>
+
+        </div>
+
+
+        <div class="loader-bottom">
+
+            <div class="loader-status">
+
+                <span>
+                    LOADING EXPERIENCE
+                </span>
+
+                <span id="loadingNumber">
+                    0%
+                </span>
+
+            </div>
+
+
+            <div class="loader-bar">
+
+                <div id="loadingBar"></div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =================================================
+         NAVIGATION
+    ================================================== -->
+
+    <header class="navbar">
+
+        <a
+            href="#home"
+            class="brand"
+            aria-label="Anubhav home"
+        >
+            A<span>.</span>
+        </a>
+
+
+        <nav
+            id="nav"
+            aria-label="Main navigation"
+        >
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#services">
+                Services
+            </a>
+
+            <a href="#about">
+                About
+            </a>
+
+            <a href="#contact">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <div class="nav-actions">
+
+            <a
+                href="#contact"
+                class="nav-button"
+            >
+                Let's Talk
+            </a>
+
+
+            <button
+                class="theme-toggle"
+                id="themeToggle"
+                type="button"
+                aria-label="Switch theme"
+                aria-pressed="false"
+            >
+                <span class="theme-icon">
+                    ☾
+                </span>
+            </button>
+
+
+            <button
+                class="menu-button"
+                id="menuButton"
+                type="button"
+                aria-label="Open menu"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <main>
+
+        <!-- =================================================
+             HERO
+        ================================================== -->
+
+        <section
+            class="hero"
+            id="home"
+        >
+
+            <div class="hero-left">
+
+                <div class="mini-label">
+
+                    <span></span>
+
+                    VISUAL CREATIVE
+
+                </div>
+
+
+                <h1>
+
+                    I MAKE
+
+                    <br>
+
+                    <em>IDEAS</em>
+
+                    <br>
+
+                    <span>MOVE.</span>
+
+                </h1>
+
+
+                <p class="hero-description">
+
+                    I'm Anubhav — a video editor and
+                    visual designer creating cinematic
+                    edits, posters, motion graphics and
+                    digital experiences.
+
+                </p>
+
+
+                <div class="hero-actions">
+
+                    <a
+                        href="#services"
+                        class="button-primary"
+                    >
+                        Explore Services
+
+                        <span>
+                            ↗
+                        </span>
+                    </a>
+
+
+                    <a
+                        href="#about"
+                        class="button-text"
+                    >
+                        More about me
+
+                        <span>
+                            ↓
+                        </span>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- HERO CHARACTER -->
+
+            <div class="hero-right">
+
+                <div class="character-circle"></div>
+
+
+                <div class="character-card">
+
+                    <img loading="lazy"
+                        src="chibi.png"
+                        alt="Anubhav illustration"
+                    >
+
+                </div>
+
+
+                <div class="character-note">
+
+                    <span>
+                        HEY!
+                    </span>
+
+                    <strong>
+                        I'm Anubhav
+                    </strong>
+
+                </div>
+
+
+                <div class="scribble scribble-one">
+                    ✦
+                </div>
+
+                <div class="scribble scribble-two">
+                    ♡
+                </div>
+
+                <div class="scribble scribble-three">
+                    +
+                </div>
+
+            </div>
+
+
+            <div class="scroll-note">
+                SCROLL TO EXPLORE ↓
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             MARQUEE
+        ================================================== -->
+
+        <section
+            class="marquee"
+            aria-label="Creative services"
+        >
+
+            <div class="marquee-track">
+
+                <span>VIDEO EDITING</span>
+                <b>✦</b>
+
+                <span>POSTER DESIGN</span>
+                <b>✦</b>
+
+                <span>MOTION GRAPHICS</span>
+                <b>✦</b>
+
+                <span>VISUAL STORYTELLING</span>
+                <b>✦</b>
+
+                <span>VIDEO EDITING</span>
+                <b>✦</b>
+
+                <span>POSTER DESIGN</span>
+                <b>✦</b>
+
+                <span>MOTION GRAPHICS</span>
+                <b>✦</b>
+
+                <span>VISUAL STORYTELLING</span>
+                <b>✦</b>
+
+            </div>
+
+        </section>
+
+        <!-- =================================================
+     SERVICES
+================================================== -->
+
+<section
+    class="services section"
+    id="services"
+>
+
+    <div class="section-heading">
+
+        <div>
+
+            <small>
+                01
+            </small>
+
+            <h2>
+                What I
+                <i>do.</i>
+            </h2>
+
+        </div>
+
+        <p>
+            Creative design focused on visual storytelling, memorable branding, and eye-catching digital content.
+        </p>
+
+    </div>
+
+
+    <div class="service-list">
+
+        <!-- POSTER DESIGN -->
+
+        <article
+            class="service-item"
+            id="posterService"
+        >
+
+            <span>01</span>
+
+            <div>
+
+                <h3>
+                    Poster Design
+                </h3>
+
+                <p>
+                    Food, electronics, cosmetics and
+                    gaming poster designs.
+                </p>
+
+            </div>
+
+            <strong>↗</strong>
+
+        </article>
+
+
+        <!-- LOGO DESIGN -->
+
+        <article
+            class="service-item"
+            id="logoService"
+        >
+
+            <span>
+                02
+            </span>
+
+            <div>
+
+                <h3>
+                    Logo Design
+                </h3>
+
+                <p>
+                    Logos for restaurants, institutes, travelling
+                    and gaming brands.
+                </p>
+
+            </div>
+
+            <strong>
+                ↗
+            </strong>
+
+        </article>
+
+
+        <!-- MAGAZINE -->
+
+        <article class="service-item" id="magazineService">
+
+            <span>
+                03
+            </span>
+
+            <div>
+
+                <h3>
+                    Magazine Design
+                </h3>
+
+                <p>
+                    Creative magazine layouts, covers and print compositions.   
+                </p>
+
+            </div>
+
+            <strong>
+                ↗
+            </strong>
+
+        </article>
+
+
+        <!-- BRAND CAMPAIGNS -->
+
+        <article class="service-item" id="brandCampaignService">
+
+            <span>
+                04
+            </span>
+
+            <div>
+
+                <h3>
+                    Brand Campaigns Design
+                </h3>
+
+                <p>
+                    Visual campaigns designed to give
+                    brands a strong identity.
+                </p>
+
+            </div>
+
+            <strong>
+                ↗
+            </strong>
+
+        </article>
+
+
+        <!-- MOTION -->
+
+        <article class="service-item" id="motionService">
+
+            <span>
+                05
+            </span>
+
+            <div>
+
+                <h3>
+                    Motion Video
+                </h3>
+
+                <p>
+                    Motion graphics and engaging
+                    animated visual content.
+                </p>
+
+            </div>
+
+            <strong>
+                ↗
+            </strong>
+
+        </article>
+
+
+        <!-- SOCIAL MEDIA -->
+
+        <article class="service-item" id="socialMediaService">
+
+            <span>
+                06
+            </span>
+
+            <div>
+
+                <h3>
+                    Social Media Content
+                </h3>
+
+                <p>
+                    Creative visual content for
+                    Instagram and social platforms.
+                </p>
+
+            </div>
+
+            <strong>
+                ↗
+            </strong>
+
+        </article>
+
+    </div>
+
+</section>
+
+ 
+
+
+        <!-- =====================================================
+         POSTER PORTFOLIO
+        ===================================================== -->
+
+         <section class="poster-portfolio" id="posterPortfolio">
+
+         <div class="poster-heading">
+
+         <div>
+            <small>01 / POSTER DESIGN</small>
+
+            <h2>
+                Selected
+                <i>posters.</i>
+            </h2>
+         </div>
+
+         <p>
+            A collection of promotional poster designs
+            created for different visual categories.
+         </p>
+
+         </div>
+
+
+        <!-- CATEGORY FILTER -->
+
+         <div class="poster-filters">
+
+        <button class="poster-filter active" data-filter="all">
+            All
+        </button>
+
+        <button class="poster-filter" data-filter="electronics">
+            Electronics
+        </button>
+
+        <button class="poster-filter" data-filter="food">
+            Food
+        </button>
+
+        <button class="poster-filter" data-filter="cosmetics">
+            Cosmetics
+        </button>
+
+        <button class="poster-filter" data-filter="gaming">
+            Gaming
+        </button>
+
+    </div>
+
+
+    <!-- POSTER GRID -->
+
+    <div class="poster-grid">
+
+
+        <!-- =========================
+             ELECTRONICS
+        ========================== -->
+
+        <article
+            class="poster-project"
+            data-category="electronics"
+        >
+
+            <div class="poster-image">
+
+                <img loading="lazy"
+                    src="boat-airdopes.jpg"
+                    alt="Boat Airdopes Poster"
+                >
+
+                <div class="poster-view">
+                    VIEW ↗
+                </div>
+
+            </div>
+
+            <div class="poster-info">
+
+                <div>
+                    <span>ELECTRONICS / 01</span>
+
+                    <h3>
+                        Boat Airdopes
+                    </h3>
+                    <p>Boat Airdopes – Promotional Poster Designed a modern product 
+                    poster highlighting the Airdopes’ key features and promotional 
+                    offer through clean composition, typography, and visual hierarchy.
+                </p>
+                </div>
+
+                <p>
+                    Photoshop
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <article
+            class="poster-project"
+            data-category="electronics"
+        >
+
+            <div class="poster-image">
+
+                <img loading="lazy"
+                    src="samsung-tv.jpg"
+                    alt="Samsung TV Poster"
+                >
+
+                <div class="poster-view">
+                    VIEW ↗
+                </div>
+
+            </div>
+
+            <div class="poster-info">
+
+                <div>
+                    <span>ELECTRONICS / 02</span>
+
+                    <h3>
+                        Samsung TV
+                    </h3>
+                    <p>Samsung TV – Promotional Poster Designed a bold promotional 
+                    poster showcasing the TV’s features and pricing through strong
+                    typography, product composition, and dynamic visual elements.
+                </p>
+                </div>
+
+                <p>
+                    Photoshop
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <article
+            class="poster-project"
+            data-category="electronics"
+        >
+
+            <div class="poster-image">
+
+                <img loading="lazy"
+                    src="smartwatch.jpg"
+                    alt="Smartwatch Poster"
+                >
+
+                <div class="poster-view">
+                    VIEW ↗
+                </div>
+
+            </div>
+
+            <div class="poster-info">
+
+                <div>
+                    <span>ELECTRONICS / 03</span>
+
+                    <h3>
+                        Smartwatch
+                    </h3>
+                    <p>Smartwatch – Promotional Poster Designed a vibrant 
+                    product poster highlighting the smartwatch’s features 
+                    and promotional offer through bold typography, dynamic 
+                    shapes, and a clean product-focused composition.
+                </p>
+                </div>
+
+                <p>
+                    Photoshop
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =========================
+             FOOD
+        ========================== -->
+
+        <article
+            class="poster-project"
+            data-category="food"
+        >
+
+            <div class="poster-image">
+
+                <img loading="lazy"
+                    src="chowmein.jpg"
+                    alt="Chowmein Poster"
+                >
+
+                <div class="poster-view">
+                    VIEW ↗
+                </div>
+
+            </div>
+
+            <div class="poster-info">
+
+                <div>
+                    <span>FOOD / 01</span>
+
+                    <h3>
+                        Chowmein
+                    </h3>
+                    <p>Chowmein – Food Promotional Poster 
+                        Designed an appetizing food promotional poster using 
+                        vibrant typography, product imagery, warm 
+                        tones, and decorative elements to create an 
+                        engaging and inviting visual.
+                    </p>
+                </div>
+
+                <p>
+                    Photoshop
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <article
+            class="poster-project"
+            data-category="food"
+        >
+
+            <div class="poster-image">
+
+                <img loading="lazy"
+                    src="food-dishes.jpg"
+                    alt="Food Dishes Poster"
+                >
+
+                <div class="poster-view">
+                    VIEW ↗
+                </div>
+
+            </div>
+
+            <div class="poster-info">
+
+                <div>
+                    <span>FOOD / 02</span>
+
+                    <h3>
+                        Food Dishes
+                    </h3>
+                    <p>Food Menu – Promotional Poster
+                       Designed a vibrant food promotional poster 
+                       featuring multiple dishes and beverages, 
+                       using bold typography, dynamic layouts, and 
+                       strong visual hierarchy to create an engaging 
+                       menu-style composition.
+                    </p>
+                </div>
+
+                <p>
+                    Photoshop
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <article
+            class="poster-project"
+            data-category="food"
+        >
+
+            <div class="poster-image">
+
+                <img loading="lazy"
+                    src="raspberry.jpg"
+                    alt="Raspberry Poster"
+                >
+
+                <div class="poster-view">
+                    VIEW ↗
+                </div>
+
+            </div>
+
+            <div class="poster-info">
+
+                <div>
+                    <span>FOOD / 03</span>
+
+                    <h3>
+                        Raspberry
+                    </h3>
+                    <p>Raspberry Delight – Food Promotional Poster
+                        Designed a bold dessert poster featuring vibrant 
+                        colors, strong typography, and appetizing product
+                         imagery to create an eye-catching promotional composition.
+                    </p>
+                </div>
+
+                <p>
+                    Photoshop
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article
+            class="poster-project"
+            data-category="food"
+        >
+
+            <div class="poster-image">
+
+                <img loading="lazy"
+                    src="FAV COFFE.jpg.jpeg"
+                    alt="COFFEE Poster"
+                >
+
+                <div class="poster-view">
+                    VIEW ↗
+                </div>
+
+            </div>
+
+            <div class="poster-info">
+
+                <div>
+                    <span>FOOD / 04</span>
+
+                    <h3>
+                        COFFEE
+                    </h3>
+                    <p>Coffee – Promotional Poster
+                       Designed a warm, elegant coffee poster 
+                       using earthy tones, refined typography, 
+                       product imagery, and a clean promotional 
+                       layout to create a premium visual appeal.  
+                    </p>
+                </div>
+
+                <p>
+                    Photoshop
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =========================
+             COSMETICS
+        ========================== -->
+
+        <article
+            class="poster-project"
+            data-category="cosmetics"
+        >
+
+            <div class="poster-image">
+
+                <img loading="lazy"
+                    src="green-tea.jpg"
+                    alt="Green Tea Poster"
+                >
+
+                <div class="poster-view">
+                    VIEW ↗
+                </div>
+
+            </div>
+
+            <div class="poster-info">
+
+                <div>
+                    <span>COSMETICS / 01</span>
+
+                    <h3>
+                        Green Tea
+                    </h3>
+                    <p>Cosmetic – Promotional Poster
+                       Designed a fresh cosmetic product poster 
+                       using vibrant green tones, product-focused 
+                       composition, bold typography, and promotional 
+                       elements to create a clean and eye-catching visual.
+                    </p>
+                </div>
+
+                <p>
+                    Photoshop
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+        <article
+            class="poster-project"
+            data-category="cosmetics"
+        >
+
+            <div class="poster-image">
+
+                <img loading="lazy"
+                    src="tulip-perfume.jpg"
+                    alt="Tulip Perfume Poster"
+                >
+
+                <div class="poster-view">
+                    VIEW ↗
+                </div>
+
+            </div>
+
+            <div class="poster-info">
+
+                <div>
+                    <span>COSMETICS / 02</span>
+
+                    <h3>
+                        Tulip Perfume
+                    </h3>
+                    <p>
+                        Perfume – Promotional Poster
+                        Designed an elegant perfume poster 
+                        using soft pastel tones, refined 
+                        typography, floral elements, and a 
+                        product-focused composition to create 
+                        a luxurious and feminine visual.
+                    </p>
+                </div>
+
+                <p>
+                    Photoshop 
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article
+            class="poster-project"
+            data-category="cosmetics"
+        >
+
+            <div class="poster-image">
+
+                <img loading="lazy"
+                    src="LIPSTICK POSTER.jpeg"
+                    alt="Lipstick Poster"
+                >
+
+                <div class="poster-view">
+                    VIEW ↗
+                </div>
+
+            </div>
+
+            <div class="poster-info">
+
+                <div>
+                    <span>COSMETICS / 03</span>
+
+                    <h3>
+                        Lipstick
+                    </h3>
+                    <p> Mimi Cosmetics - Korean Cosmetics Promotional Poster
+                       Designed a chic and minimal cosmetics poster featuring 
+                       soft pastel tones, elegant serif typography, product-focused 
+                       imagery, and modern sparkle graphics to create a stylish and 
+                       eye-catching beauty promotional composition.
+                    </p>
+                </div>
+
+                <p>
+                    Photoshop
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- =========================
+             GAMING
+        ========================== -->
+
+        <article
+            class="poster-project"
+            data-category="gaming"
+        >
+
+            <div class="poster-image">
+
+                <img loading="lazy"
+                    src="gaming thumbnail.jpg.jpeg"
+                    alt="Gaming Poster"
+                >
+
+                <div class="poster-view">
+                    VIEW ↗
+                </div>
+
+            </div>
+
+            <div class="poster-info">
+
+                <div>
+                    <span>GAMING / 01</span>
+
+                    <h3>
+                        Free Fire Thumbnail
+                    </h3>
+                    <p>Free Fire - Gaming Thumbnail / Live Stream Poster 
+                    Designed a high-intensity Free Fire gaming thumbnail 
+                    featuring dynamic character action, bold 3D typography, 
+                    glowing rank badge, and explosive visual effects to create 
+                    an engaging and attention-grabbing streaming composition.
+                </p>
+                </div>
+
+                <p>
+                    Photoshop
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <article
+            class="poster-project"
+            data-category="gaming"
+        >
+
+            <div class="poster-image">
+
+                <img loading="lazy"
+                    src="ff.jpeg"
+                    alt="Gaming Poster"
+                >
+
+                <div class="poster-view">
+                    VIEW ↗
+                </div>
+
+            </div>
+
+            <div class="poster-info">
+
+                <div>
+                    <span>GAMING / 02</span>
+
+                    <h3>
+                        Free Fire Thumbnail
+                    </h3>
+                    <p>Free Fire Naruto - Gaming Thumbnail Poster
+                     Designed a vibrant gaming thumbnail featuring 
+                     anime-inspired character art, action-packed gameplay
+                     visuals, striking color contrast, and bold typography 
+                     to create an engaging and high-impact promotional design.
+                    </p>
+                </div>
+
+                <p>
+                    Photoshop
+                </p>
+
+            </div>
+
+        </article>
+
+
+
+
+        <article
+            class="poster-project"
+            data-category="gaming"
+        >
+
+            <div class="poster-image">
+
+                <img loading="lazy"
+                    src="PUBG THUMBNAIL.jpeg"
+                    alt="Gaming Poster"
+                >
+
+                <div class="poster-view">
+                    VIEW ↗
+                </div>
+
+            </div>
+
+            <div class="poster-info">
+
+                <div>
+                    <span>GAMING / 03</span>
+
+                    <h3>
+                        PUBG Thumbnail
+                    </h3>
+                    <p> Cryonix Wraith X-Suit - Gaming Promotional Poster
+                      Designed a futuristic PUBG Mobile X-Suit poster featuring 
+                      icy character armor, weapon and accessory showcase, bold 
+                      metallic typography, and cool blue tones to create a powerful 
+                      and eye-catching gaming promotional composition.
+
+                    </p>
+                </div>
+
+                <p>
+                    Photoshop
+                </p>
+
+            </div>
+
+        </article>
+
+        <article
+            class="poster-project"
+            data-category="gaming"
+        >
+
+            <div class="poster-image">
+
+                <img loading="lazy"
+                    src="VALO THUMB.jpg.jpeg"
+                    alt="Gaming Poster"
+                >
+
+                <div class="poster-view">
+                    VIEW ↗
+                </div>
+
+            </div>
+
+            <div class="poster-info">
+
+                <div>
+                    <span>GAMING / 04</span>
+
+                    <h3>
+                        VALORANT Thumbnail
+                    </h3>
+                    <p>Valorant - Gaming Thumbnail Poster
+                      Designed a sleek Valorant gaming thumbnail 
+                      featuring agent Omen character art, dark atmospheric 
+                      background, modern minimal typography, and sharp visual 
+                      effects to create a bold and professional gaming visual.
+                    </p>
+                </div>
+
+                 <p>
+                    Photoshop
+                </p>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- POSTER IMAGE LIGHTBOX -->
+
+<div class="poster-lightbox" id="posterLightbox">
+
+    <button class="lightbox-close" id="lightboxClose">
+        ×
+    </button>
+
+    <div class="lightbox-media-wrap">
+        <img loading="lazy"
+            id="lightboxImage"
+            src=""
+            alt="Poster Preview"
+        >
+    </div>
+
+    <div class="lightbox-caption" id="posterLightboxCaption">
+        <h3 id="posterLightboxTitle"></h3>
+        <p id="posterLightboxDescription"></p>
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     LOGO PORTFOLIO
+===================================================== -->
+
+<section
+    class="logo-portfolio"
+    id="logoPortfolio"
+>
+
+    <div class="logo-heading">
+
+        <div>
+
+            <small>
+                02 / LOGO DESIGN
+            </small>
+
+            <h2>
+                Selected
+                <i>logos.</i>
+            </h2>
+
+        </div>
+
+        <p>
+            A collection of logo concepts and
+            identity designs created for different
+            businesses and creative projects.
+        </p>
+
+    </div>
+
+
+    <!-- CATEGORY FILTER -->
+
+    <div class="logo-filters">
+
+        <button
+            class="logo-filter active"
+            data-filter="all"
+        >
+            All
+        </button>
+
+        <button
+            class="logo-filter"
+            data-filter="restaurant"
+        >
+            Restaurants
+        </button>
+
+        <button
+            class="logo-filter"
+            data-filter="institute"
+        >
+            Institutes
+        </button>
+
+        <button
+            class="logo-filter"
+            data-filter="business"
+        >
+            Traveling
+        </button>
+
+        <button
+            class="logo-filter"
+            data-filter="other"
+        >
+            Gaming
+        </button>
+
+    </div>
+
+
+    <!-- LOGO GRID -->
+
+    <div class="logo-grid">
+
+
+        <!-- =========================
+             RESTAURANTS
+        ========================== -->
+
+        <article
+            class="logo-project"
+            data-category="restaurant"
+        >
+
+            <div class="logo-image">
+
+                <img loading="lazy"
+                    src="RESTURANT LOGO-1.jpg.jpeg"
+                    alt="Restaurant Logo Design"
+                >
+
+                <div class="logo-view">
+                    VIEW ↗
+                </div>
+
+            </div>
+
+            <div class="logo-info">
+
+                <div>
+
+                    <span>
+                        RESTAURANT 
+                    </span>
+
+                    <h3>
+                        Restaurant Logo
+                    </h3>
+                    <p>The Spicy Meal - Restaurant Logo Design
+                      Designed a playful and appetizing restaurant 
+                      logo featuring a flaming chili icon, fork, and 
+                      pan illustration with bold rounded typography and 
+                      warm spicy color tones to create a fun, flavorful, 
+                      and eye-catching food brand identity.
+                    </p>
+
+                </div>
+
+                <p>
+                    Illustrator
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- =========================
+             INSTITUTES
+        ========================== -->
+
+        <article
+            class="logo-project"
+            data-category="institute"
+        >
+
+            <div class="logo-image">
+
+                <img loading="lazy"
+                    src="INSTITUTE LOGO-1.jpg.jpeg"
+                    alt="Institute Logo Design"
+                >
+
+                <div class="logo-view">
+                    VIEW ↗
+                </div>
+
+            </div>
+
+            <div class="logo-info">
+
+                <div>
+
+                    <span>
+                        INSTITUTE 
+                    </span>
+
+                    <h3>
+                        Institute Logo
+                    </h3>
+                    <p>Scholar's Hub University - Education Logo Design
+                      Designed a modern academic logo featuring an owl 
+                      shield emblem symbolizing wisdom, an open book, 
+                      and stationery icons with a classic ribbon banner 
+                      to create a trustworthy, scholarly, and professional 
+                      university brand identity.
+                    </p>
+
+                </div>
+
+                <p>
+                    Illustrator
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- =========================
+             TRAVELING
+        ========================== -->
+
+        <article
+            class="logo-project"
+            data-category="business"
+        >
+
+            <div class="logo-image">
+
+                <img loading="lazy"
+                    src="TRAVELLING LOGO-1.jpg.jpeg"
+                    alt="Traveling Logo Design"
+                >
+
+                <div class="logo-view">
+                    VIEW ↗
+                </div>
+
+            </div>
+
+            <div class="logo-info">
+
+                <div>
+
+                    <span>
+                        TRAVELING
+                    </span>
+
+                    <h3>
+                        Traveling Brand
+                    </h3>
+                    <p>Thar Safari Club - Travel & Tourism Logo Design
+                       Designed a vibrant circular badge logo featuring 
+                       desert dunes, palm tree, sun, and flying plane 
+                       integrated into the circle to represent adventure 
+                       and getaway. Used bright tropical colors with warm 
+                       golden tones and clean sans-serif typography to create 
+                       a cheerful, travel-inspired brand identity with tagline 
+                       "Lost In The Golden Glow".
+                     </p>
+
+                </div>
+
+                <p>
+                    Illustrator 
+                </p>
+
+            </div>
+
+        </article>
+
+
+        <!-- =========================
+             GAMING
+        ========================== -->
+
+        <article
+            class="logo-project"
+            data-category="other"
+        >
+
+            <div class="logo-image">
+
+                <img loading="lazy"
+                    src="gaminglogo.png"
+                    alt="Creative Logo Design"
+                >
+
+                <div class="logo-view">
+                    VIEW ↗
+                </div>
+
+            </div>
+
+            <div class="logo-info">
+
+                <div>
+
+                    <span>
+                        GAMING
+                    </span>
+
+                    <h3>
+                        Gaming Logo
+                    </h3>
+                    <p>
+                        Anubhav Level Up - Gaming / Esports Logo Design
+                        Designed a futuristic gaming logo featuring a 
+                        custom lettermark 'A' integrated with a game controller, 
+                        neon purple glow, and metallic chrome finish. Used sharp 
+                        geometric shapes, star accents, and modern spaced typography 
+                        with tagline "LEVEL UP" to create a bold, high-energy, and 
+                        premium esports brand identity.
+                    </p>
+
+                </div>
+
+                <p>
+                    Illustrator · AI
+                </p>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     LOGO IMAGE LIGHTBOX
+===================================================== -->
+
+<div
+    class="logo-lightbox"
+    id="logoLightbox"
+>
+
+    <button
+        class="logo-lightbox-close"
+        id="logoLightboxClose"
+    >
+        ×
+    </button>
+
+    <div class="lightbox-media-wrap">
+        <img loading="lazy"
+            id="logoLightboxImage"
+            src=""
+            alt="Logo Preview"
+        >
+    </div>
+
+    <div class="lightbox-caption" id="logoLightboxCaption">
+        <h3 id="logoLightboxTitle"></h3>
+        <p id="logoLightboxDescription"></p>
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     MAGAZINE PORTFOLIO
+===================================================== -->
+
+<section class="magazine-portfolio" id="magazinePortfolio">
+
+    <div class="magazine-heading">
+        <div>
+            <span>03 / MAGAZINE DESIGN</span>
+            <h2>Editorial <i>work.</i></h2>
+        </div>
+
+        <p>
+            Magazine layouts, print compositions and mockups
+            designed with a clean editorial approach.
+        </p>
+    </div>
+
+
+    <!-- =================================================
+         PROJECT 01 — CAFE PAMPHLET
+    ================================================== -->
+
+    <article class="magazine-project cafe-project">
+
+        <div class="magazine-project-title">
+            <span>01 / CAFE PAMPHLET</span>
+            <h3>Café <i>pamphlet.</i></h3>
+            <p>
+                A two-page café pamphlet designed with a clean
+                visual hierarchy and presented through a realistic mockup.
+            </p>
+        </div>
+
+
+        <!-- FRONT + INNER PAGE -->
+
+        <div class="cafe-pages">
+
+            <div class="magazine-image cafe-page">
+                <img loading="lazy"
+                    src="cafe front.jpg"
+                    alt="Cafe pamphlet front page"
+                >
+
+                <div class="magazine-overlay">
+                    <span>VIEW ↗</span>
+                </div>
+            </div>
+
+
+            <div class="magazine-image cafe-page">
+                <img loading="lazy"
+                    src="cafe inner.jpg"
+                    alt="Cafe pamphlet inner page"
+                >
+
+                <div class="magazine-overlay">
+                    <span>VIEW ↗</span>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- LARGE MOCKUP -->
+
+        <div class="cafe-mockup magazine-image">
+
+            <img loading="lazy"
+                src="clean_hd_cafe_brochure.jpg"
+                alt="Cafe pamphlet mockup"
+            >
+
+            <div class="magazine-overlay">
+                <span>VIEW ↗</span>
+            </div>
+
+        </div>
+
+
+        <div class="magazine-meta">
+            <span>Print Design</span>
+            <span>Layout</span>
+            <span>Mockup</span>
+            <Span>Illustrator</Span>
+        </div>
+
+    </article>
+
+
+
+    <!-- =================================================
+         PROJECT 02 — MAGAZINE COVER
+    ================================================== -->
+
+    <article class="magazine-project cover-project">
+
+        <div class="magazine-project-title">
+            <span>02 / MAGAZINE COVER</span>
+            <h3>Magazine <i>cover.</i></h3>
+            <p>
+                A bold editorial cover created with strong typography,
+                composition and visual direction.
+            </p>
+        </div>
+
+
+        <!-- COVER + MOCKUP SIDE BY SIDE -->
+
+        <div class="cover-layout">
+
+            <!-- COVER PAGE -->
+
+            <div class="magazine-image cover-page">
+
+                <img loading="lazy"
+                    src="dpix_magazine_cover.jpg"
+                    alt="Magazine cover design"
+                >
+
+                <div class="magazine-overlay">
+                    <span>VIEW ↗</span>
+                </div>
+
+            </div>
+
+
+            <!-- MOCKUP -->
+
+            <div class="magazine-image cover-mockup">
+
+                <img loading="lazy"
+                    src="magmockup.png"
+                    alt="Magazine cover mockup"
+                >
+
+                <div class="magazine-overlay">
+                    <span>VIEW ↗</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="magazine-meta">
+            <span>Cover Design</span>
+            <span>Typography</span>
+            <span>Art Direction</span>
+            <span>Photoshop</span>
+        </div>
+
+    </article>
+
+
+
+<!-- =================================================
+     PROJECT 03 — MAGAZINE COVER
+================================================= -->
+
+<article class="magazine-project cover-project">
+
+    <div class="magazine-project-title">
+
+        <span>03 / MAGAZINE COVER</span>
+
+        <h3>
+            Magazine <i>cover.</i>
+        </h3>
+
+        <p>
+            A creative magazine cover presented with
+            a clean editorial composition and realistic mockup.
+        </p>
+
+    </div>
+
+
+    <!-- COVER + MOCKUP SIDE BY SIDE -->
+
+    <div class="cover-layout">
+
+        <!-- COVER PAGE -->
+
+        <div class="magazine-image cover-page">
+
+            <img loading="lazy"
+                src="india_cricket_tournament.jpg"
+                alt="Magazine cover design 03"
+            >
+
+            <div class="magazine-overlay">
+                <span>VIEW ↗</span>
+            </div>
+
+        </div>
+
+
+        <!-- MOCKUP -->
+
+        <div class="magazine-image cover-mockup">
+
+            <img loading="lazy"
+                src="cricketmockup.png"
+                alt="Magazine cover mockup 03"
+            >
+
+            <div class="magazine-overlay">
+                <span>VIEW ↗</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- PROJECT META -->
+
+    <div class="magazine-meta">
+
+        <span>Cover Design</span>
+
+        <span>Editorial</span>
+
+        <span>Mockup</span>
+        <span>Photoshop</span>
+
+    </div>
+
+</article>
+
+
+</section>
+
+
+<!-- =====================================================
+     MAGAZINE IMAGE LIGHTBOX
+===================================================== -->
+
+<div
+    class="magazine-lightbox"
+    id="magazineLightbox"
+>
+
+    <button
+        class="magazine-lightbox-close"
+        id="magazineLightboxClose"
+    >
+        ×
+    </button>
+
+    <div class="lightbox-media-wrap">
+        <img loading="lazy"
+            id="magazineLightboxImage"
+            src=""
+            alt="Magazine Preview"
+        >
+    </div>
+
+    <div class="lightbox-caption" id="magazineLightboxCaption">
+        <h3 id="magazineLightboxTitle"></h3>
+        <p id="magazineLightboxDescription"></p>
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     BRAND CAMPAIGN PORTFOLIO
+===================================================== -->
+
+<section class="brand-portfolio" id="brandCampaignPortfolio">
+
+    <div class="brand-heading">
+        <span>04 / BRAND CAMPAIGNS</span>
+
+        <h2>
+            Ideas that <i>build brands.</i>
+        </h2>
+
+        <p>
+            A collection of visual identities, campaign concepts
+            and creative brand experiences.
+        </p>
+    </div>
+
+
+    <div class="brand-case-study">
+
+
+        <!-- ================= IMAGE 01 ================= -->
+
+        <article class="brand-card brand-card-01">
+
+            <div class="brand-image">
+                <img loading="lazy" src="LEVELX_3x6.jpg"
+                     alt="Brand Campaign Project 01">
+
+                <div class="brand-view">
+                    VIEW ↗
+                </div>
+            </div>
+
+            <div class="brand-info">
+
+                <span class="brand-number">01</span>
+
+                <h3>
+                    <i>Introduction</i>
+                </h3>
+
+                <p>
+                   A high-impact introduction that immerses 
+                   the audience into the world of esports, 
+                   blending dramatic atmosphere with bold 
+                   typography to define a gaming brand that lives 
+                   to compete and conquer.
+                </p>
+
+                <div class="brand-tags">
+                    <span>Brand Identity</span>
+                    <span>Visual STORYTELLING</span>
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- ================= IMAGE 02 ================= -->
+
+        <article class="brand-card brand-card-02">
+
+            <div class="brand-image">
+                <img loading="lazy" src="levelx_brand_identity.jpg"
+                     alt="Brand Campaign Project 02">
+
+                <div class="brand-view">
+                    VIEW ↗
+                </div>
+            </div>
+
+            <div class="brand-info">
+
+                <span class="brand-number">02</span>
+
+                <h3>
+                    Brand<i> Identity</i>
+                </h3>
+
+                <p>
+                   A complete visual system defining the core 
+                   of LEVELX - from its sharp X monogram to its 
+                   dark, modern palette and strong Raleway typeface, 
+                   crafted for a gaming brand that plays, competes, 
+                   and conquers.
+                </p>
+
+                <div class="brand-tags">
+                    <span>LOGO DESIGN</span>
+                    <span>COLOR PALETTE</span>
+                    <span>TYPOGRAPHY</span>
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- ================= IMAGE 03 ================= -->
+
+        <article class="brand-card brand-card-03">
+
+            <div class="brand-image">
+                <img loading="lazy" src="levelx_logo_system.jpg"
+                     alt="Brand Campaign Project 03">
+
+                <div class="brand-view">
+                    VIEW ↗
+                </div>
+            </div>
+
+            <div class="brand-info">
+
+                <span class="brand-number">03</span>
+
+                <h3>
+                    Logo <i>System</i>
+                </h3>
+
+                <p>
+                    A versatile logo system designed for maximum 
+                    adaptability across platforms, featuring the 
+                    primary LX monogram with integrated controller 
+                    icon and refined variations to ensure strong brand 
+                    recognition in both digital and esports environments.
+                </p>
+
+                <div class="brand-tags">
+                    <span>LOGO DESIGN</span>
+                    <span>BRAND MARK</span>
+                    <span>VISUAL SYSTEM</span>
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- ================= IMAGE 04 ================= -->
+
+        <article class="brand-card brand-card-04">
+
+            <div class="brand-image">
+                <img loading="lazy" src="levelx_campaign_poster_16x7.jpg"
+                     alt="Brand Campaign Project 04">
+
+                <div class="brand-view">
+                    VIEW ↗
+                </div>
+            </div>
+
+            <div class="brand-info">
+
+                <span class="brand-number">04</span>
+
+                <h3>
+                    Brand <i>Campaign</i>
+                </h3>
+
+                <p>
+                    A high-energy campaign visual that embodies 
+                    the core mantra - Play. Compete. Conquer. - 
+                    merging futuristic cityscape aesthetics with 
+                    gamer-centric storytelling to position LEVELX 
+                    as the gateway to victory.
+                </p>
+
+                <div class="brand-tags">
+                    <span>Art Direction</span>
+                    <span>Campaign Design</span>
+                    <span>Visual Storytelling</span>
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- ================= IMAGE 05 ================= -->
+
+        <article class="brand-card brand-card-05">
+
+            <div class="brand-image">
+                <img loading="lazy" src="LEVELX_social_media_ads_1x1.jpg"
+                     alt="Brand Campaign Project 05">
+
+                <div class="brand-view">
+                    VIEW ↗
+                </div>
+            </div>
+
+            <div class="brand-info">
+
+                <span class="brand-number">05</span>
+
+                <h3>
+                    Social Media <i>Ads</i>
+                </h3>
+
+                <p>
+                   A set of bold, motivational social creatives 
+                   designed to engage the gaming community, using 
+                   powerful messaging and dark, immersive visuals 
+                   to drive brand connection and amplify the Play. 
+                   Compete. Conquer. attitude. 
+                </p>
+
+                <div class="brand-tags">
+                    <span>Social Media</span>
+                    <span>Campaign Design</span>
+                    <span>Art Direction</span>
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- ================= IMAGE 06 ================= -->
+
+        <article class="brand-card brand-card-06">
+
+            <div class="brand-image">
+                <img loading="lazy" src="LEVELX_merchandise_06_1x1.jpg"
+                     alt="Brand Campaign Project 06">
+
+                <div class="brand-view">
+                    VIEW ↗
+                </div>
+            </div>
+
+            <div class="brand-info">
+
+                <span class="brand-number">06</span>
+
+                <h3>
+                    Merchandise / Product <i>Design</i>
+                </h3>
+
+                <p>
+                    A curated merchandise collection extending the 
+                    LEVELX identity beyond the screen, featuring apparel 
+                    and gaming gear designed with minimal, high-contrast 
+                    branding to create a cohesive lifestyle for the 
+                    modern gamer.
+                </p>
+
+                <div class="brand-tags">
+                    <span>Merchandise Design</span>
+                    <span>Brand Extension</span>
+                    <span>Product Design</span>
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- ================= IMAGE 07 ================= -->
+
+        <article class="brand-card brand-card-07">
+
+            <div class="brand-image">
+                <img loading="lazy" src="LEVELX_business_card_07_1x1.jpg"
+                     alt="Brand Campaign Project 07">
+
+                <div class="brand-view">
+                    VIEW ↗
+                </div>
+            </div>
+
+            <div class="brand-info">
+
+                <span class="brand-number">07</span>
+
+                <h3>
+                    Business <i>Card</i>
+                </h3>
+
+                <p>
+                   A premium business card design that translates 
+                   the LEVELX identity into a tangible touchpoint, 
+                   featuring a clean front with bold logo lockup and 
+                   a detailed back, accented with futuristic purple 
+                   linework for a sleek esports aesthetic. 
+                </p>
+
+                <div class="brand-tags">
+                    <span>Stationery Design</span>
+                    <span>Brand Collateral</span>
+                    <span>Visual Identity</span>
+                </div>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- ================= IMAGE 08 ================= -->
+
+        <article class="brand-card brand-card-08">
+
+            <div class="brand-image">
+                <img loading="lazy" src="LEVELX_final_campaign_mockup_08_16x8.jpg"
+                     alt="Brand Campaign Project 08">
+
+                <div class="brand-view">
+                    VIEW ↗
+                </div>
+            </div>
+
+            <div class="brand-info">
+
+                <span class="brand-number">08</span>
+
+                <h3>
+                    Final Campaign <i>Mockup</i>
+                </h3>
+
+                <p>
+                  A complete brand in context - showcasing the 
+                  LEVELX identity across all touchpoints in a real-world 
+                  gaming setup, from campaign posters and roll-up banners 
+                  to apparel, stationery, and peripherals, creating a unified 
+                  and immersive esports ecosystem.  
+                </p>
+
+                <div class="brand-tags">
+                    <span>Brand Presentation</span>
+                    <span>Mockup Design</span>
+                    <span>Visual Identity</span>
+                </div>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+
+    <div class="brand-meta">
+        <span>Brand Campaigns</span>
+        <span>Visual Identity</span>
+        <span>Creative Direction</span>
+        <span>Campaign Design</span>
+    </div>
+
+</section>
+
+
+
+<!-- ================= BRAND LIGHTBOX ================= -->
+
+<div class="brand-lightbox" id="brandLightbox">
+
+    <button
+        class="brand-lightbox-close"
+        id="brandLightboxClose">
+        ×
+    </button>
+
+    <div class="lightbox-media-wrap">
+        <img loading="lazy"
+            id="brandLightboxImage"
+            src=""
+            alt="Brand Campaign Preview">
+    </div>
+
+    <div class="lightbox-caption" id="brandLightboxCaption">
+        <h3 id="brandLightboxTitle"></h3>
+        <p id="brandLightboxDescription"></p>
+    </div>
+
+</div>
+
+
+
+
+<!-- =====================================================
+     MOTION VIDEO PORTFOLIO
+===================================================== -->
+<section class="motion-portfolio" id="motionPortfolio">
+
+    <div class="brand-heading">
+        <span>05 / MOTION & REELS</span>
+        <h2>Motion that <i>moves people.</i></h2>
+        <p>Short-form reels and animations crafted for scroll-stopping engagement.</p>
+    </div>
+
+    <!-- FILTERS -->
+    <div class="motion-filters">
+        <button class="motion-filter active" data-filter="all">All</button>
+        <button class="motion-filter" data-filter="reels">Reels</button>
+        <button class="motion-filter" data-filter="animation">Animation</button>
+    </div>
+
+    <!-- GRID -->
+    <div class="motion-grid">
+
+        <!-- REEL 01 - VERTICAL -->
+        <article class="motion-card" data-category="reels">
+            <div class="motion-video-wrap vertical">
+                <video data-src="MOTION REEL.mp4" autoplay muted loop playsinline preload="none"></video>
+                <div class="motion-overlay">
+                    <button class="motion-view">VIEW ↗</button>
+                </div>
+            </div>
+            <div class="motion-info">
+                <h3> Startup Product Studio <i>Motion Explanier</i></h3>
+                <p>Startup Studio Explainer — 67s motion video exploring the
+                     Product Studio model. Direction: minimalist B&W + sage green, 
+                     kinetic typography, 3D collage, and invisible morph transitions.</p>
+                <div class="motion-tags"><span>After Effects</span></div>
+            </div>
+        </article>
+
+        <!-- REEL 02 - VERTICAL -->
+        <article class="motion-card" data-category="reels">
+            <div class="motion-video-wrap vertical">
+                <video data-src="MOTION REEL 2.mp4" autoplay muted loop playsinline preload="none"></video>
+                <div class="motion-overlay">
+                    <button class="motion-view">VIEW ↗</button>
+                </div>
+            </div>
+            <div class="motion-info">
+                <h3>Liquid Death — <i>$3M to $1.4B Breakdown</i></h3>
+                <p>39s monochrome motion case study breaking down how 
+                    Liquid Death sells rebellion, not water, with kinetic 
+                    typography and 3D product animation.</p>
+                <div class="motion-tags"><span>After Effects</span></div>
+            </div>
+        </article>
+
+        <!-- REEL 03 - VERTICAL -->
+        <article class="motion-card" data-category="reels">
+            <div class="motion-video-wrap vertical">
+                <video data-src="MOTION REEL 3.mp4" autoplay muted loop playsinline preload="none"></video>
+                <div class="motion-overlay">
+                    <button class="motion-view">VIEW ↗</button>
+                </div>
+            </div>
+            <div class="motion-info">
+                <h3>CINEMATIC EDIT SECRETS- <i>Why Edits Feel Cinematic</i></h3>
+                <p>22s mixed-media collage promo debunking the need for Boris FX / RTX power, 
+                    built with paper-texture, 3D integration, and kinetic puzzle typography.
+                </p>
+                <div class="motion-tags"><span>After Effects</span></div>
+            </div>
+        </article>
+
+        <!-- ANIMATION 01 - HORIZONTAL -->
+        <article class="motion-card" data-category="animation">
+            <div class="motion-video-wrap horizontal">
+                <video data-src="free fire logo.mp4" autoplay muted loop playsinline preload="none"></video>
+                <div class="motion-overlay">
+                    <button class="motion-view">VIEW ↗</button>
+                </div>
+            </div>
+            <div class="motion-info">
+                <h3>FREE FIRE BATTLEGROUNDS- <i>Logo Reveal</i></h3>
+                <p>10s electric gaming intro with red-blue plasma charge, glitch reveal, and ember particles..</p>
+                <div class="motion-tags"><span>After Effects</span></div>
+            </div>
+        </article>
+
+        <!-- ANIMATION 02 - HORIZONTAL -->
+        <article class="motion-card" data-category="animation">
+            <div class="motion-video-wrap horizontal">
+                <video data-src="lv_0_20260914194831.mp4" autoplay muted loop playsinline preload="none"></video>
+                <div class="motion-overlay">
+                    <button class="motion-view">VIEW ↗</button>
+                </div>
+            </div>
+            <div class="motion-info">
+                <h3>NETFLIX— <i>Cinematic Logo Reveal</i></h3>
+                <p> 5s fan-made recreation of the iconic Netflix intro with volumetric red light rays, particle sparks, and curved ribbon-type reveal.</p>
+                <div class="motion-tags"><span>After Effects</span></div>
+            </div>
+        </article>
+
+        <!-- ANIMATION 03 - HORIZONTAL -->
+        <article class="motion-card" data-category="animation">
+            <div class="motion-video-wrap horizontal">
+                <video data-src="Marketing (1).mp4" autoplay muted loop playsinline preload="none"></video>
+                <div class="motion-overlay">
+                    <button class="motion-view">VIEW ↗</button>
+                </div>
+            </div>
+            <div class="motion-info">
+                <h3>MARKETING- <i>Flat Icon Drop Reveal </i></h3>
+                <p>3s playful 2D kinetic typography intro with falling business icons and pop-up particles on a gradient sky background.</p>
+                <div class="motion-tags"><span>After Effects</span></div>
+            </div>
+        </article>
+
+        <!-- ANIMATION 04 - HORIZONTAL -->
+        <article class="motion-card" data-category="animation">
+            <div class="motion-video-wrap horizontal">
+                <video data-src="animation4.mp4" autoplay muted loop playsinline preload="none"></video>
+                <div class="motion-overlay">
+                    <button class="motion-view">VIEW ↗</button>
+                </div>
+            </div>
+            <div class="motion-info">
+                <h3>SAVE MONEY- <i>Click-to-Reveal CTA Animation</i></h3>
+                <p>5s playful UI micro-interaction with morphing button, cursor click, and 3D wallet icon transition in purple gradient.</p>
+                <div class="motion-tags"><span>After Effects</span></div>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<!-- VIDEO LIGHTBOX -->
+<div class="motion-lightbox" id="motionLightbox">
+    <button class="motion-lightbox-close" id="motionLightboxClose" type="button">×</button>
+    <div class="video-lightbox-content">
+        <video id="motionLightboxVideo" controls playsinline></video>
+        <div class="lightbox-caption" id="motionLightboxCaption">
+            <h3 id="motionLightboxTitle"></h3>
+            <p id="motionLightboxDescription"></p>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- =====================================================
+     SOCIAL MEDIA CONTENT
+===================================================== -->
+<section class="social-portfolio" id="socialPortfolio">
+
+    <div class="social-heading">
+        <span>06 / SOCIAL MEDIA CONTENT</span>
+        <h2>Content made to <i>move.</i></h2>
+        <p>Short-form visuals designed to capture attention, communicate quickly and keep brands moving online.</p>
+    </div>
+
+    <div class="social-video-grid">
+
+        <!-- VIDEO 01 -->
+        <article class="social-video-card">
+            <div class="social-video">
+                <video class="social-preview" data-src="spiderman.mp4" autoplay muted loop playsinline preload="none"></video>
+                <div class="social-video-overlay">
+                    <button class="social-view" type="button">VIEW ↗</button>
+                </div>
+            </div>
+            <div class="social-info">
+                <div class="social-number">01</div>
+                <h3>Spider-Man Cinematic- <i>Edit</i></h3>
+                <p>A dynamic cinematic edit combining impactful visuals, smooth transitions, and storytelling to create engaging social media content</p>
+                <div class="social-software"><span>Capcut</span></div>
+            </div>
+        </article>
+
+        <!-- VIDEO 02 -->
+        <article class="social-video-card">
+            <div class="social-video">
+                <video class="social-preview" data-src="Truth is - Iron Man Edit _ Aura Farming _ Sempero (slowed) _ _marvel _ironman(1080P_HD).mp4" autoplay muted loop playsinline preload="none"></video>
+                <div class="social-video-overlay">
+                    <button class="social-view" type="button">VIEW ↗</button>
+                </div>
+            </div>
+            <div class="social-info">
+                <div class="social-number">02</div>
+                <h3>Fan Edit- <i>Truth Is, I Am Iron Man</i></h3>
+                <p>Dialogue-driven cinematic edit built on the iconic "Truth is, I am Iron Man" moment with slow zoom, typography sync and beat-matched reveal.</p>
+                <div class="social-software"><span>Capcut</span></div>
+            </div>
+        </article>
+
+        <!-- VIDEO 03 -->
+        <article class="social-video-card">
+            <div class="social-video">
+                <video class="social-preview" data-src="ffvedio.mp4" autoplay muted loop playsinline preload="none"></video>
+                <div class="social-video-overlay">
+                    <button class="social-view" type="button">VIEW ↗</button>
+                </div>
+            </div>
+            <div class="social-info">
+                <div class="social-number">03</div>
+                <h3>Free Fire Outfit Transition- <i>Lobby to Demon Form</i></h3>
+                <p>A beat-synced gaming transition turning a lobby entry into a neon-demon awakening with glow VFX and particle burst for viral retention.</p>
+                <div class="social-software"><span>Premiere Pro</span></div>
+            </div>
+        </article>
+
+        <!-- VIDEO 04 -->
+        <article class="social-video-card">
+            <div class="social-video">
+                <video class="social-preview" data-src="Majboor - Aankhon Aankhon Ka Masla (Freefire Edit)❤️_nefoli _freefire _fyp _freefireedit _majboor(MP4).mp4" autoplay muted loop playsinline preload="none"></video>
+                <div class="social-video-overlay">
+                    <button class="social-view" type="button">VIEW ↗</button>
+                </div>
+            </div>
+            <div class="social-info">
+                <div class="social-number">04</div>
+                <h3>Free Fire- <i>Edit</i></h3>
+                <p>A short-form Free Fire mini-movie blending couple emotes, giant fantasy VFX overlay, action sniper cut and romantic outro into a narrative-driven gaming story built for retention.</p>
+                <div class="social-software"><span>Premiere Pro</span></div>
+            </div>
+        </article>
+
+    </div>
+
+    <div class="social-meta">
+        <span>Reels</span><span>Short Form</span><span>Motion Graphics</span><span>Social Campaigns</span>
+    </div>
+
+</section>
+
+<!-- LIGHTBOX -->
+<div class="social-lightbox" id="socialLightbox">
+    <button class="social-lightbox-close" id="socialLightboxClose" type="button">×</button>
+    <div class="video-lightbox-content">
+        <video id="socialLightboxVideo" controls playsinline></video>
+        <div class="lightbox-caption" id="socialLightboxCaption">
+            <h3 id="socialLightboxTitle"></h3>
+            <p id="socialLightboxDescription"></p>
+        </div>
+    </div>
+</div>
+
+
+
+        <!-- =================================================
+             ABOUT
+        ================================================== -->
+
+        <section
+            class="about section"
+            id="about"
+        >
+
+            <div class="about-character">
+
+                <div class="about-image">
+
+                    <img
+                        src="chibi.png"
+                        alt="Anubhav illustration"
+                        loading="lazy"
+                        decoding="async"
+                    >
+
+                </div>
+
+
+                <div class="about-sticker">
+
+                    NICE TO
+
+                    <br>
+
+                    MEET YOU :)
+
+                </div>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <div class="section-heading simple">
+
+                    <div>
+
+                        <small>
+                            02
+                        </small>
+
+                        <h2>
+                            About
+                            <i>me.</i>
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <h3>
+
+                    Creative mind.
+
+                    <br>
+
+                    <em>
+                        Curious soul.
+                    </em>
+
+                </h3>
+
+
+                <p>
+                    Hey! I'm Anubhav. I love taking an
+                    idea and turning it into something
+                    visual.
+                </p>
+
+
+                <p>
+                    My work sits somewhere between
+                    video editing, graphic design,
+                    motion and storytelling. I enjoy
+                    experimenting, learning new
+                    techniques and creating things
+                    that make people stop scrolling.
+                </p>
+
+
+                <div class="skills">
+
+                    <span>
+                        Premiere Pro
+                    </span>
+
+                    <span>
+                        After Effects
+                    </span>
+
+                    <span>
+                        Photoshop
+                    </span>
+
+                    <span>
+                        Illustrator
+                    </span>
+
+                    <span>
+                        DaVinci Resolve
+                    </span>
+
+                    <span>
+                        CapCut
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             STATS
+        ================================================== -->
+
+        <section class="stats">
+
+            <div>
+
+                <strong>
+                    ∞
+                </strong>
+
+                <span>
+                    IDEAS
+                </span>
+
+            </div>
+
+
+            <div>
+
+                <strong>
+                    24/7
+                </strong>
+
+                <span>
+                    CREATING
+                </span>
+
+            </div>
+
+
+            <div>
+
+                <strong>
+                    01
+                </strong>
+
+                <span>
+                    CREATIVE MIND
+                </span>
+
+            </div>
+
+
+            <div>
+
+                <strong>
+                    100%
+                </strong>
+
+                <span>
+                    PASSION
+                </span>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             CONTACT
+        ================================================== -->
+
+        <section
+            class="contact"
+            id="contact"
+        >
+
+            <div class="contact-doodle doodle-heart">
+                ♡
+            </div>
+
+            <div class="contact-doodle doodle-star">
+                ✦
+            </div>
+
+
+            <div class="contact-content">
+
+                <small>
+                    03 / CONTACT
+                </small>
+
+
+                <h2>
+
+                    Let's make
+
+                    <br>
+
+                    something
+
+                    <br>
+
+                    <i>
+                        awesome.
+                    </i>
+
+                </h2>
+
+
+                <p>
+                    Have an idea, project or
+                    collaboration in mind?
+                    I'd love to hear about it.
+                </p>
+
+
+                <a
+                    href="mailto:anubhavtiwari33015@gmail.com?subject=Creative%20Project%20Inquiry"
+                    class="email-button"
+                >
+
+                    anubhavtiwari33015@gmail.com
+
+                    <span>
+                        ↗
+                    </span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =================================================
+         FOOTER
+    ================================================== -->
+
+    <footer>
+
+        <div>
+            © ANUBHAV
+        </div>
+
+
+        <div>
+            MADE WITH CURIOSITY ✦
+        </div>
+
+
+        <div class="social-links">
+
+            <a
+                href="https://www.instagram.com/_anubhavtiwari_18"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Instagram
+            </a>
+
+            <a
+                href="https://www.behance.net/anubhavtiwari17"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Behance
+            </a>
+
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
