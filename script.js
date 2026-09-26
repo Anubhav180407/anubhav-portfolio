@@ -675,6 +675,37 @@ document.addEventListener("DOMContentLoaded", () => {
        VIDEO SOURCE HELPER
     ===================================================== */
 
+    const VIDEO_ASSET_BASE_URL =
+        "https://github.com/Anubhav180407/anubhav-portfolio/releases/download/video-assets-v1/";
+
+    const VIDEO_ASSET_NAMES = {
+        "MOTION REEL.mp4": "MOTION.REEL.mp4",
+        "MOTION REEL 2.mp4": "MOTION.REEL.2.mp4",
+        "MOTION REEL 3.mp4": "MOTION.REEL.3.mp4",
+        "free fire logo.mp4": "free.fire.logo.mp4",
+        "lv_0_20260914194831.mp4": "lv_0_20260914194831.mp4",
+        "Marketing (1).mp4": "Marketing.1.mp4",
+        "animation4.mp4": "animation4.mp4",
+        "spiderman.mp4": "spiderman.mp4",
+        "Truth is - Iron Man Edit _ Aura Farming _ Sempero (slowed) _ _marvel _ironman(1080P_HD).mp4":
+            "Truth.is.-.Iron.Man.Edit._.Aura.Farming._.Sempero.slowed._._marvel._ironman.1080P_HD.mp4",
+        "ffvedio.mp4": "ffvedio.mp4",
+        "Majboor - Aankhon Aankhon Ka Masla (Freefire Edit)❤️_nefoli _freefire _fyp _freefireedit _majboor(MP4).mp4":
+            "Majboor.-.Aankhon.Aankhon.Ka.Masla.Freefire.Edit._nefoli._freefire._fyp._freefireedit._majboor.MP4.mp4"
+    };
+
+
+    function resolveVideoSource(source) {
+        const assetName = VIDEO_ASSET_NAMES[source];
+
+        if (!assetName) {
+            throw new Error(`No hosted video asset is configured for "${source}".`);
+        }
+
+        return new URL(encodeURIComponent(assetName), VIDEO_ASSET_BASE_URL).href;
+    }
+
+
     function getVideoSource(video) {
 
         if (!video) {
@@ -690,7 +721,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         if (video.dataset.src) {
-            return video.dataset.src;
+            return resolveVideoSource(video.dataset.src);
         }
 
         const source = video.querySelector("source");
@@ -717,7 +748,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        video.src = video.dataset.src;
+        video.src = resolveVideoSource(video.dataset.src);
         video.load();
     }
 
